@@ -28,3 +28,8 @@ and let your voice resonate in the chorus of anonymous expression. Welcome to Vo
 where anonymity breeds authenticity, and every word carries the weight of human emotion.
 
 -The Rabbit (Squad-58)
+
+
+
+Codium suggested this instead
+Vomit is a digital sanctuary where students and teachers can express themselves freely and anonymously. It provides a platform for individuals to share their thoughts, dreams, and fears without judgment or repercussion. Users can explore the unfiltered musings of their peers, gaining insights into the collective consciousness of the classroom. Join us on a journey of self-discovery and expression in the realm of Vomit, where every word carries the weight of human emotion.
