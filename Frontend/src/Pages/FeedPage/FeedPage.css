@@ -1,0 +1,170 @@
+#feedpageBoss {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Navbar {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.625);
+  position: fixed;
+  background-color: black;
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 2;
+}
+
+#Navbar h2 {
+  font-family: Calibri;
+  font-size: 30px;
+}
+
+#VomitFeed {
+  height: 100%;
+  width: 600px;
+  border: 1px solid white;
+  padding-top: 100px;
+  background-color: none;
+  min-height: 800px;
+}
+
+#VomitBox {
+  min-height: 75px;
+  max-height: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin: 25px auto;
+  justify-content: center;
+  border: 0.01px solid;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #000000;
+  border: 1px solid white;
+}
+
+
+#VomitBox:hover {
+  background-color: #0f0f0f;
+}
+
+#PhotoOfPost{
+    height: 60px;
+    width: 10%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#PhotoOfPost img{
+    height: 40px;
+}
+
+
+#usernameAndPost{
+  min-height: 75px;
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+#usernameAndTime{
+  height: 30px;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+#usernameAndTime h4{
+    color: white;
+    font-family: Calibri;
+    margin-left: 2px;
+}
+
+#usernameAndTime span{
+    color: white;
+    font-family: Calibri;
+    opacity: 0.7;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+#PostText{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    overflow-wrap: break-word;  
+    user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    white-space: pre-line;
+    padding: 0px 3px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+
+}
+
+
+
+#MenuFeedPage{
+    position: fixed;
+    height: 86vh;
+    width: 40px;
+    bottom: 2vh;
+    margin-left: 620px;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#MenuFeedPage div{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#MenuFeedPage div:hover{
+    background-color: rgb(180, 180, 180);
+  }
+  
+
+
+.global-class-name{
+    height: 23px;
+    width: 23px;
+}
+
+#SettingsBtn{
+    margin-top: 10px;
+}
+
+#VomitBtn{
+    margin-top: 68vh;
+}
+
+#fadeloader{
+  margin: 100px auto;
+}

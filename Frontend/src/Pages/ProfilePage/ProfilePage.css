@@ -1,0 +1,62 @@
+#ProfileMain{
+    height: 100vh;
+    width: 600px;
+    border: 1px solid white;
+    padding-top: 78px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#BackBtnProfile{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+#ButtonBackBox{
+    height: 50px;
+    width: 50px;
+    background-color: #80808052;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#ProfileDiv{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#ProfileDiv img{
+    height: 90px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+
+#ProfileDiv h3{
+    font-family: Calibri;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#ProfileDiv h4{
+    font-family: Calibri;
+    color: white;
+    margin-top: 10px;
+}

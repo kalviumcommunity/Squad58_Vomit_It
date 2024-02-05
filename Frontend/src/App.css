@@ -1,42 +1,104 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../assets/Solenza-Regular.ttf");
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+body{
+  background-color: #000000;
+}
+
+/* Firefox */
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #1c1c1c;
+}
+
+/* Other browsers */
+*::-webkit-scrollbar{
+  width: 13px;
+}
+
+*::-webkit-scrollbar-track{
+  background: #1c1c1c;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #ffffff;
+  border-radius: 0px;
+  border: 3px solid #FFFFFF;
+}
+
+#JustToBlurinSignUp{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100%;
+  background-color:transparent;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(15px);
+}
+
+
+#JustToBlurinSignUp h1{
+  text-transform: uppercase;
+  font-size: 130px;
+  font-family: myFirstFont;
+  font-weight: normal;
+  color: white;
+  text-shadow: -1px -1px 1px var(--shadow-color-light),
+  -1px 1px 1px var(--shadow-color-light),
+  1px -1px 1px var(--shadow-color-light),
+  1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light),
+  0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+  0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color),
+  0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+  0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  margin-bottom: 100px;
+}
+
+
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

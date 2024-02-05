@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../assets/Solenza-Regular.ttf");
+}
+#HomePageBoss{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+#TitleVomit{
+    font-family: myFirstFont;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    letter-spacing: 40px;
+    -webkit-user-drag: none;
+    user-select: none;
+    margin-left: 30px;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    margin-top: 200px;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+#Subline{
+    font-family: system-ui, -apple-system;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 0px;
+    opacity: 0.7;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+#RegisterAndSignUp{
+    height: 100px;
+    width: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#RegisterAndSignUp div{
+    height: 40px;
+   width: 80%;
+}
+
+#registerBtn{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#Loginbtn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#registerBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#Loginbtn:hover{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+ }
+  100% {
+    transform: translateX(calc(-250px * 7));
+ }
+}
+.slider {
+  background: transparent;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  
+}
+.slider::before, .slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
