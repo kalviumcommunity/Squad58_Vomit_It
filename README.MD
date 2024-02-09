@@ -27,7 +27,7 @@ Join us on a journey of self-discovery and expression. Embrace the freedom to Vo
 and let your voice resonate in the chorus of anonymous expression. Welcome to Vomit, 
 where anonymity breeds authenticity, and every word carries the weight of human emotion.
 
--The Rabbit (Squad-58)
+-The Rabbit (Squad-58).
 
 
 
